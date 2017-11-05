@@ -11,14 +11,14 @@
 set -e
 
 #programming
-sudo pacman -S meld
+sudo pacman -S meld --noconfirm --needed
 
 #browsers
-sudo pacman -S firefox chromium
+sudo pacman -S firefox chromium --noconfirm --needed
 
 #Audiotools
-sudo pacman -S audacity
-sudo pacman -S audacious
+sudo pacman -S audacity --noconfirm --needed
+sudo pacman -S audacious --noconfirm --needed
 
 #office applications
 sudo pacman -S libreoffice --noconfirm --needed
@@ -26,7 +26,7 @@ sudo pacman -S libreoffice --noconfirm --needed
 #other tools
 sudo pacman -S --noconfirm --needed archey3 atom catfish conky curl
 sudo pacman -S --noconfirm --needed evince evolution filezilla 
-sudo pacman -S --noconfirm --needed galculator gimp git inkscape
+sudo pacman -S --noconfirm --needed galculator gimp git inkscape ristretto sane plank nemo openshot
 
 #disktools
 sudo pacman -S --noconfirm --needed baobab bleachbit
@@ -46,8 +46,8 @@ sudo pacman -S --noconfirm --needed inxi lm_sensors lsb-release mlocate
 sudo pacman -S --noconfirm --needed unace unrar zip unzip sharutils uudeview arj cabextract file-roller
 
 #not verified yet
-sudo pacman -S --noconfirm --needed nemo net-tools notify-osd noto-fonts numlockx openshot pinta plank polkit-gnome
-sudo pacman -S --noconfirm --needed redshift ristretto sane screenfetch scrot shotwell
+sudo pacman -S --noconfirm --needed  net-tools notify-osd noto-fonts numlockx polkit-gnome
+sudo pacman -S --noconfirm --needed  screenfetch scrot shotwell
 sudo pacman -S --noconfirm --needed simple-scan simplescreenrecorder smplayer sysstat
 sudo pacman -S --noconfirm --needed terminator thunar transmission-cli transmission-gtk ttf-ubuntu-font-family ttf-droid tumbler
 sudo pacman -S --noconfirm --needed variety vlc vnstat wget unclutter
