@@ -10,20 +10,17 @@
 
 set -e
 
-#programming
-sudo pacman -S meld
+# Use variety for background images
+sudo pacman -S variety --noconfirm --needed
 
-#Audio
-#sudo pacman -S rhythmbox
-#sudo pacman -S audacity
-#sudo pacman -S audacious !! Works 
+#install themes
+sudo pacman -S arc-gtk-theme --noconfirm --needed
 
-#office applications
-sudo pacman -S libreoffice --noconfirm --needed
+#install icon sets from AUR
+packer -S sardi-icons --noconfirm --noedit
+packer -S sardi-mono-papirus-colora-variations-icons-git --noconfirm --noedit
 
 
-#unzip and zip
-sudo pacman -S --noconfirm --needed unace unrar zip unzip sharutils uudeview arj cabextract file-roller
 
 echo "################################################################"
 echo "###################    Install Done       ######################"
