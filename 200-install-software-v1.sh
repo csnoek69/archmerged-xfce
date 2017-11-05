@@ -52,8 +52,10 @@ sudo pacman -S --noconfirm --needed simple-scan simplescreenrecorder smplayer sy
 sudo pacman -S --noconfirm --needed terminator thunar transmission-cli transmission-gtk ttf-ubuntu-font-family ttf-droid tumbler
 sudo pacman -S --noconfirm --needed variety vlc vnstat wget unclutter
 
-
-
+#gaming
+packer -S steam-fonts --noconfirm --noedit
+packer -S steam --noconfirm --noedit
+packer -S steam-native-runtime --noconfirm --noedit
 
 echo "################################################################"
 echo "###################    Install Done       ######################"
