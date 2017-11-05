@@ -57,6 +57,9 @@ packer -S steam-fonts --noconfirm --noedit
 packer -S steam --noconfirm --noedit
 packer -S steam-native-runtime --noconfirm --noedit
 
+#Cloud drive
+sudo pacman -S nextcloud --noconfirm --needed 
+
 echo "################################################################"
 echo "###################    Install Done       ######################"
 echo "################################################################"
