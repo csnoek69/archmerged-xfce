@@ -19,6 +19,7 @@ sudo pacman -S arc-gtk-theme --noconfirm --needed
 #install icon sets from AUR
 packer -S sardi-icons --noconfirm --noedit
 packer -S sardi-mono-papirus-colora-variations-icons-git --noconfirm --noedit
+packer -S xcursor-breeze --noconfirm --noedit
 
 
 
